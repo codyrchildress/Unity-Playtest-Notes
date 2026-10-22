@@ -1,0 +1,34 @@
+{
+  "name": "com.theworststudio.playtestnotes",
+  "version": "0.1.0",
+  "displayName": "Playtest Notes",
+  "description": "Capture in-game feedback while playing: one button pauses the game, takes a clean screenshot and records a voice note with the scene, position, camera and game state. Notes are saved as folders with an index.md meant to be handed to Claude. Compiled out of release builds.",
+  "unity": "6000.0",
+  "author": {
+    "name": "The Worst Studio"
+  },
+  "keywords": [
+    "playtest",
+    "feedback",
+    "notes",
+    "qa",
+    "screenshot",
+    "voice"
+  ],
+  "dependencies": {
+    "com.unity.inputsystem": "1.11.0",
+    "com.unity.ugui": "2.0.0",
+    "com.unity.modules.androidjni": "1.0.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.screencapture": "1.0.0",
+    "com.unity.modules.ui": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "A drop-in Playtest Notes prefab and a demo scene with a walking target and a metadata provider.",
+      "path": "Samples~/Demo"
+    }
+  ]
+}

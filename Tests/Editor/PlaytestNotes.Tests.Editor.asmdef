@@ -1,0 +1,26 @@
+{
+    "name": "PlaytestNotes.Tests.Editor",
+    "rootNamespace": "PlaytestNotes.Tests",
+    "references": [
+        "PlaytestNotes.Api",
+        "PlaytestNotes.Capture",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS",
+        "!PLAYTEST_NOTES_DISABLE"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

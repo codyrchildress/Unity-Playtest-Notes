@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d954cfb799302f74b8f0f939c7cec1db, type: 3}
+  m_Name: PlaytestNotesSettings
+  m_EditorClassIdentifier: PlaytestNotes.Api::PlaytestNotes.PlaytestNotesSettings
+  saveRoot: 
+  maxRecordingSeconds: 60
+  touchCaptureFingers: 3
+  capture:
+    m_Name: Capture
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: 91b168c7-ff02-4d9a-b0b0-499708a8b9f1
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: ca16456b-6643-4721-9e91-e77196ce4026
+      m_Path: <Keyboard>/f8
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Capture
+      m_Flags: 0
+    - m_Name: OneModifier
+      m_Id: 9ac6e78f-ec13-44ab-947a-23c8a32921bb
+      m_Path: OneModifier(modifiersOrder=2)
+      m_Interactions: hold(duration=1)
+      m_Processors: 
+      m_Groups: 
+      m_Action: Capture
+      m_Flags: 4
+    - m_Name: Modifier
+      m_Id: 9b0ed6b3-d6b3-4a11-934e-5b5773fe4e04
+      m_Path: <Gamepad>/leftShoulder
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Capture
+      m_Flags: 8
+    - m_Name: Binding
+      m_Id: 40339698-4b26-44d1-957d-e8d56e892164
+      m_Path: <Gamepad>/rightShoulder
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Capture
+      m_Flags: 8
+    m_Flags: 0
+    m_Priority: 0
+  stop:
+    m_Name: Stop
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: dfeac90d-cf1a-48c4-b9ea-b9d4f4ad8615
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 267c6f51-d1d0-4d52-a501-6bc103220e35
+      m_Path: <Keyboard>/f8
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Stop
+      m_Flags: 0
+    - m_Name: 
+      m_Id: b8535943-f312-42b1-b174-eb8552ed2902
+      m_Path: <Keyboard>/enter
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Stop
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 6ada70e1-6c29-4782-9076-a4f2754d1b45
+      m_Path: <Gamepad>/buttonSouth
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Stop
+      m_Flags: 0
+    - m_Name: OneModifier
+      m_Id: fb0bac8d-da59-4b50-a7df-d7005dc8d933
+      m_Path: OneModifier(modifiersOrder=2)
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Stop
+      m_Flags: 4
+    - m_Name: Modifier
+      m_Id: 4ad2b5e5-4d13-4714-96d2-5a2f847e3e90
+      m_Path: <Gamepad>/leftShoulder
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Stop
+      m_Flags: 8
+    - m_Name: Binding
+      m_Id: 549f7658-27c2-45e4-9a80-1befb5af7efd
+      m_Path: <Gamepad>/rightShoulder
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Stop
+      m_Flags: 8
+    m_Flags: 0
+    m_Priority: 0
+  submit:
+    m_Name: Submit
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: a1f4940f-7f0b-4b70-86ea-86f77a0677e3
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: ce8d3512-4e9e-404d-93c7-916628726b1d
+      m_Path: <Keyboard>/enter
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Submit
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 55ceedf1-753d-41fb-98c4-f51b87632432
+      m_Path: <Keyboard>/numpadEnter
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Submit
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 2a84ed0a-dbed-4889-bc49-dff824d7d713
+      m_Path: <Gamepad>/buttonSouth
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Submit
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
+  rerecord:
+    m_Name: Re-record
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: 9379194b-965e-4e0c-8c92-e8abbaee4a55
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: fbcd4600-da35-4588-910c-eac381ad5abf
+      m_Path: <Keyboard>/r
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Re-record
+      m_Flags: 0
+    - m_Name: 
+      m_Id: d44338a3-4e9d-497c-baaa-3bd8391bbb1d
+      m_Path: <Gamepad>/buttonWest
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Re-record
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
+  delete:
+    m_Name: Delete
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: 95e511fa-9293-463d-8b18-fe76c33d73f9
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: d44041c4-4a10-47f5-8a22-50371c17f2ab
+      m_Path: <Keyboard>/delete
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Delete
+      m_Flags: 0
+    - m_Name: 
+      m_Id: e408ffac-d9d0-4d21-86bb-7b91faa5024a
+      m_Path: <Keyboard>/backspace
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Delete
+      m_Flags: 0
+    - m_Name: 
+      m_Id: eeff442c-f7ef-4531-8815-de9829b8ed54
+      m_Path: <Gamepad>/buttonEast
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Delete
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
+  nextCategory:
+    m_Name: Next Category
+    m_Type: 1
+    m_ExpectedControlType: 
+    m_Id: 47cd52ad-5b7b-446d-865a-33b978acae29
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: ad2df1f9-476b-470b-9a65-5d7335e4b80f
+      m_Path: <Keyboard>/tab
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Next Category
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 7a4a3a7c-00b7-401d-81f7-affcb7cb80f4
+      m_Path: <Gamepad>/rightShoulder
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Next Category
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
+  whisperModelPath: PlaytestNotes/Models/ggml-base.en.bin
+  whisperLanguage: en

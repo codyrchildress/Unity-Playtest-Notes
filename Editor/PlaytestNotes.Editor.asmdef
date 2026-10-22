@@ -1,0 +1,21 @@
+{
+    "name": "PlaytestNotes.Editor",
+    "rootNamespace": "PlaytestNotes.Editor",
+    "references": [
+        "PlaytestNotes.Api",
+        "PlaytestNotes.Capture"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!PLAYTEST_NOTES_DISABLE"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

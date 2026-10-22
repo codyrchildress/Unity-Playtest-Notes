@@ -1,0 +1,30 @@
+{
+    "name": "PlaytestNotes.Whisper.Editor",
+    "rootNamespace": "PlaytestNotes.Editor",
+    "references": [
+        "PlaytestNotes.Api",
+        "PlaytestNotes.Capture",
+        "PlaytestNotes.Editor",
+        "com.whisper.unity"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "PLAYTEST_NOTES_WHISPER",
+        "!PLAYTEST_NOTES_DISABLE"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.whisper.unity",
+            "expression": "1.0.0",
+            "define": "PLAYTEST_NOTES_WHISPER"
+        }
+    ],
+    "noEngineReferences": false
+}
